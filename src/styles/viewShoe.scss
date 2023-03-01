@@ -1,0 +1,37 @@
+/* viewing single shoe */
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#contentContainer {
+    flex: 1;
+    padding-left: 5vw;
+}
+#contentContainer h5,
+#contentContainer p{
+    display: inline;
+    vertical-align: top;
+}
+
+#imageContainer{
+    flex:1;
+    text-align: center;
+    margin: auto;
+}
+
+#additionalContainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+}
+
+#additionalContainer p{
+    padding-bottom: 4vh;
+}
+#additionalImageContainer{
+    display: inline-flex;
+}
+#additionalImageContainer img{
+    padding: 5px;
+}

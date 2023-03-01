@@ -1,0 +1,11 @@
+#homePage{
+    text-align: center;
+}
+
+#collabs {
+    display: flex;
+    flex-flow: row;
+    div{
+        flex: 1;
+    }
+}

@@ -1,0 +1,24 @@
+@use 'viewShoe';
+@use 'home';
+/* general */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar */
+nav {
+    border-bottom: black 1px solid;
+}
+
+main{
+    padding: 20px;
+    
+}
+
+img{
+    transition: transform .2s;
+    :hover{
+        transform: scale(2.5);
+    }
+}
